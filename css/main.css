@@ -162,10 +162,18 @@ body {
       .app-rock-paper-scissors .rock-paper-scissors .result p {
         text-align: center; }
     .app-rock-paper-scissors .rock-paper-scissors .choices {
-      background: white;
       text-align: center;
-      border-radius: 70px; }
+      margin-top: 20px;
+      width: 100%;
+      left: 0; }
       .app-rock-paper-scissors .rock-paper-scissors .choices .choice {
-        display: inline-block; }
+        display: inline-block;
+        border-radius: 50%;
+        padding: 20px;
+        margin: 0 10px;
+        transition: all .3s ease; }
+        .app-rock-paper-scissors .rock-paper-scissors .choices .choice:hover {
+          background: #ffffff;
+          cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
