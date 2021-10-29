@@ -131,7 +131,8 @@ body {
     .app-rock-paper-scissors .rock-paper-scissors header {
       height: 120px;
       width: 100%;
-      background-color: #B6F1EE; }
+      background-color: rgba(225, 246, 204, 0.73);
+      box-shadow: 7px 3px 40px -25px #000000; }
       .app-rock-paper-scissors .rock-paper-scissors header h1 {
         text-align: center;
         padding: 20px;
