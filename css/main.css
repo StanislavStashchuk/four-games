@@ -120,7 +120,7 @@ body {
   100% {
     transform: scale(1); } }
 .app-rock-paper-scissors {
-  width: 80%;
+  width: 100vw;
   height: 100vh;
   box-shadow: 7px 3px 40px -25px #000000;
   background-color: #e2f8cd; }
@@ -134,10 +134,13 @@ body {
       background-color: #B6F1EE; }
       .app-rock-paper-scissors .rock-paper-scissors header h1 {
         text-align: center;
-        padding: 20px; }
+        padding: 20px;
+        padding-top: 45px; }
     .app-rock-paper-scissors .rock-paper-scissors .score-board {
       margin: 15px auto;
-      border: 3px solid white;
-      width: 250px; }
+      border: 4px solid white;
+      border-radius: 50px;
+      width: 550px;
+      font-size: 35px; }
 
 /*# sourceMappingURL=main.css.map */
