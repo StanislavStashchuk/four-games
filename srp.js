@@ -9,3 +9,19 @@ const rock = document.getElementById("brick")
 const paper = document.getElementById("parchment")
 const scissors = document.getElementById("scissors")
 const button = document.getElementById("button")
+
+rock.addEventListener('click', function (){
+    console.log("you clicker on rock")
+})
+
+paper.addEventListener('click', function (){
+    console.log("you clicker on paper")
+})
+
+scissors.addEventListener('click', function (){
+    console.log("you clicker on scissors")
+})
+
+button.addEventListener('click', function (){
+    console.log("you clicker on button")
+})
