@@ -238,6 +238,14 @@ body {
             font-size: 33px;
             text-transform: capitalize;
             font-weight: bold;
+            width: 25%;
+            margin: 0 auto;
+
+            &:hover {
+                cursor: pointer;
+                border: 3px solid white;
+                border-radius: 10px;
+            }
         }
     }
 }

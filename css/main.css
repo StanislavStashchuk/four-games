@@ -181,6 +181,12 @@ body {
       text-align: center;
       font-size: 33px;
       text-transform: capitalize;
-      font-weight: bold; }
+      font-weight: bold;
+      width: 25%;
+      margin: 0 auto; }
+      .app-rock-paper-scissors .rock-paper-scissors #action-message:hover {
+        cursor: pointer;
+        border: 3px solid white;
+        border-radius: 10px; }
 
 /*# sourceMappingURL=main.css.map */
